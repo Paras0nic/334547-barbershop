@@ -23,4 +23,207 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.4;
+    margin-bottom: 30px;
+    margin-top: 55px;
 }
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.main-header {
+    height: 72px;
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+}
+
+nav>a {
+  display: inline-block;
+}
+
+nav li,
+nav ul {
+  display: inline-block;
+    margin-right: 40px;
+}
+
+.main-catalog {
+    height: 910px;
+}
+
+.breadcrumbs ul{
+    margin-bottom: 59px;
+    padding: 0px;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.feedback-form-group {
+    width: 220px;
+    float: left;
+}
+
+.Products {
+    width: 700px;
+    float: right;
+}
+
+.Products article {
+    float: left;
+    width: 220px;
+    height: 286px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Products article:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.Product-nav {
+    margin-top: 45px;
+    float: left;
+}
+
+.Product-nav a {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+    line-height: 43px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-right: 7px;
+    
+    background-color: black;
+    color: white;
+}
+
+ul {
+  padding: 0px;
+}
+
+.main-footer {
+    height: 189px;
+}
+
+
+.footer-contacts {
+  float: left;
+  width: 310px; 
+    margin-right: 60px;
+}
+
+.footer-social {
+    float: left;
+  width: 180px;
+}
+
+.footer-copyright {
+    float: right;
+  width: 180px;
+}
+
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+
+
+
+.left-column {
+    float: left;
+    width: 470px;
+    padding: 0px;
+}
+
+.gallery img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery img:last-child {
+    margin-right: 0px;
+}
+
+.right-column {
+    float: right;
+    width: 390px;
+}
+
+.right-column p {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
