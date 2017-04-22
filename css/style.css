@@ -7,24 +7,26 @@ body {
 }
 
 h2 {
-  font-size: 10.206px;
+  font-size: 24px;
   font-family: "PTSans";
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.25;
+  margin: 0px;
 }
 
 
 h1 {
-  font-size: 12.757px;
+  font-size: 30px;
   font-family: "PTSans";
   color: rgb(0, 0, 0);
   font-weight: bold;
-  text-transform: uppercase;
   line-height: 1.4;
-    margin-bottom: 30px;
-    margin-top: 55px;
+  text-align: left;
+  text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 25px;
 }
 
 .container {
@@ -43,12 +45,17 @@ h1 {
 
 .main-header {
     height: 72px;
+    background-color: #1257aa;
+    opacity: 0.5;
 }
 
 .main-navigation {
   width: 780px;
   float: left;
+  height: 72px;
+  vertical-align: middle;    
 }
+
 
 .user-block {
   width: 140px;
@@ -67,10 +74,17 @@ nav ul {
 
 .main-catalog {
     height: 910px;
+    background-color: #1277aa;
+    opacity: 0.5;
+}
+
+.main-catalog .container{
+    padding-top: 55px;
 }
 
 .breadcrumbs ul{
-    margin-bottom: 59px;
+    margin-top: 0px;
+    margin-bottom: 58px;
     padding: 0px;
 }
 
@@ -101,7 +115,7 @@ nav ul {
 }
 
 .Product-nav {
-    margin-top: 45px;
+    margin-top: 30px;
     float: left;
 }
 
@@ -126,14 +140,18 @@ ul {
 }
 
 .main-footer {
+    box-sizing: border-box;
     height: 189px;
+    background-color: #1257aa;
+    opacity: 0.5;
+    padding-top: 60px;
 }
 
 
 .footer-contacts {
   float: left;
   width: 310px; 
-    margin-right: 60px;
+    margin-right: 93px;
 }
 
 .footer-social {
@@ -146,22 +164,25 @@ ul {
   width: 180px;
 }
 
-.main-footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
+
+.product-description {
+    box-sizing: border-box;
+    min-height: 900px;
+    padding-top: 50px;
 }
-
-
 
 
 .left-column {
     float: left;
-    width: 470px;
+    width: 460px;
     padding: 0px;
 }
 
 .gallery img{
     margin-right: 20px;
+}
+
+.gallery img:first-child {
     margin-bottom: 20px;
 }
 
@@ -176,6 +197,8 @@ ul {
 
 .right-column p {
     display: inline-block;
+    margin-top: 20px;
+    
 }
 
 
